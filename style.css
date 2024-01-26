@@ -98,3 +98,22 @@ footer {
     margin-top: auto;
     text-align: center;
 }
+ /* Media Query for smaller screens */
+ @media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+
+    nav a {
+        font-size: 12px; /* Set smaller font size for navigation links on smaller screens */
+    }
+
+    .video-title {
+        font-size: 20px; /* Set smaller font size for video titles on smaller screens */
+    }
+
+    .main-video,
+    .portrait-video {
+        max-width: 100%; /* Adjust max-width for smaller screens */
+    }
+}
