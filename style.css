@@ -62,6 +62,16 @@ main {
     margin: 0 auto; /* Center the video grid */
     background-color: #fff; /* White background color for the video grid */
 }
+.video-title-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(59, 59, 59, 0.7); /* Semi-transparent black background */
+    color: #fff; /* White text color */
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 .video-row {
     display: flex;
@@ -71,6 +81,7 @@ main {
 
 .video-cell {
     flex: 1;
+    position: relative;
 }
 
 .main-video{
