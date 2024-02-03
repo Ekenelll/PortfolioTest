@@ -22,7 +22,7 @@ header {
     text-align: center;
 }
 h1 {
-    font-family: 'Roboto', sans-serif; /* Font from Google */
+    font-family: 'Impact', sans-serif; /* Font from Google */
     margin: 0; 
     text-align: left; 
 }
@@ -36,14 +36,19 @@ nav ul {
 nav li {
     margin-left: 20px;
 }
-
-nav a {
-    font-family: 'Poppins', sans-serif; /* Font from Google */
-    text-decoration: none;
-    color: #777474;
-    font-size: 14px; 
+.nav-personal-reels {
+    font-size: 28px;
     font-weight: bold;
+    font-family: 'Haettenschweiler';
+
 }
+/*
+nav a {
+    font-family: 'Roboto', sans-serif; /* Font from Google 
+    margin: 0; 
+    text-align: right; 
+}
+*/
 main {
     flex: 1;
     padding: 20px;
@@ -91,8 +96,6 @@ main {
     width: 100%;
     max-width: 400px; /* Set a maximum width for the videos */
     height: auto;
-    opacity: 0; /* Initial opacity set to 0 for the fade-in effect */
-    animation: fadeIn 1s ease-out forwards;
 }
 @keyframes fadeIn {
     from {
