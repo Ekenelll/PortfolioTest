@@ -66,8 +66,8 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(59, 59, 59, 0.7); /* Semi-transparent black background */
-    color: #fff; /* White text color */
+    background: rgba(97, 91, 91, 0.7); /* Semi-transparent black background */
+    color: #000000; /* White text color */
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
