@@ -22,13 +22,13 @@ header {
     text-align: center;
 }
 h1 {
-    font-family: 'Impact', sans-serif; /* Font from Google */
+    font-family: Impact, sans-serif; /* Font from Google */
     margin: 0; 
     text-align: left; 
 }
 nav ul {
     list-style: none;
-    display: flex;
+
     margin: 0;
     padding: 0;
 }
@@ -37,9 +37,8 @@ nav li {
     margin-left: 20px;
 }
 .nav-personal-reels {
-    font-size: 24px;
     font-weight: bold;
-    font-family: 'Impact';
+    font-family: Impact;
 
 }
 /*
